@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tdmu.deadline.tienichcongnhan" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ThongTinTuyenDung"
+            android:label="@string/title_activity_thong_tin_tuyen_dung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DangKyPhongVan"
+            android:label="@string/title_activity_dang_ky_phong_van"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KhaiBaoNghiViec"
+            android:label="@string/title_activity_khai_bao_nghi_viec"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimKiemViecLam"
+            android:label="@string/title_activity_tim_kiem_viec_lam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TienIch"
+            android:label="@string/title_activity_tien_ich"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThongBao"
+            android:label="@string/title_activity_thong_bao"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThongTinTuyenDung0001"
+            android:label="@string/title_activity_thong_tin_tuyen_dung0001"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThongTinTuyenDung0002"
+            android:label="@string/title_activity_thong_tin_tuyen_dung0002"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThongTinTuyenDung0003"
+            android:label="@string/title_activity_thong_tin_tuyen_dung0003"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThongTinTuyenDung0004"
+            android:label="@string/title_activity_thong_tin_tuyen_dung0004"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

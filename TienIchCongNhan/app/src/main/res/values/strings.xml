@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TienIchCongNhan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_thong_tin_tuyen_dung">Thông tin Tuyển Dụng</string>
+    <string name="title_activity_dang_ky_phong_van">Đăn Ký Phỏng Vấn</string>
+    <string name="title_activity_khai_bao_nghi_viec">KhaiBaoNghiViec</string>
+    <string name="title_activity_tim_kiem_viec_lam">"Tìm Kiếm "</string>
+    <string name="title_activity_tien_ich">TienIch</string>
+    <string name="title_activity_thong_bao">ThongBao</string>
+    <string name="title_activity_thong_tin_tuyen_dung0001">ThongTinTuyenDung0001</string>
+    <string name="title_activity_thong_tin_tuyen_dung0002">ThongTinTuyenDung0002</string>
+    <string name="title_activity_thong_tin_tuyen_dung0003">ThongTinTuyenDung0003</string>
+    <string name="title_activity_thong_tin_tuyen_dung0004">ThongTinTuyenDung0004</string>
+</resources>

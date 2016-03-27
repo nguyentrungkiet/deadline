@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tdmu.deadline.tienichcongnhan.ThongTinTuyenDung0001"
+    tools:showIn="@layout/activity_thong_tin_tuyen_dung0001">
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageButtonHomepage"
+        android:src="@drawable/homepage"
+        android:layout_alignBottom="@+id/imageButtonUlities"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonUlities"
+        android:src="@drawable/ulities"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonHomepage"
+        android:layout_toEndOf="@+id/imageButtonHomepage" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonSearch"
+        android:src="@drawable/search"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonUlities"
+        android:layout_toEndOf="@+id/imageButtonUlities" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonInbox"
+        android:src="@drawable/inbox"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonSearch"
+        android:layout_toEndOf="@+id/imageButtonSearch" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonMenu"
+        android:src="@drawable/menu"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonInbox"
+        android:layout_toEndOf="@+id/imageButtonInbox" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageButtonHomepage"
+        android:id="@+id/scrollView4"
+        android:fillViewport="false">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Công ty:"
+                android:id="@+id/textViewCongTy"
+                android:textSize="30dp"
+                android:textColor="#29c336"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewThongbao"
+                android:text="20dp"
+                android:layout_below="@+id/textViewCongTy"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Kí "
+                android:id="@+id/buttonDKy"
+                android:layout_below="@+id/textViewThongbao"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

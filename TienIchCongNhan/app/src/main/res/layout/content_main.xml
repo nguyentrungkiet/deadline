@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tdmu.deadline.tienichcongnhan.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logotdm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/manhinhphu">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIỆN ÍCH CÔNG NHÂN"
+                android:id="@+id/txtTimkiemvieclam"
+                android:textSize="30dp"
+                android:textIsSelectable="true"
+                android:textStyle="bold"
+                android:textColor="#ff0b0b"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+            <!--android:layout_below="@+id/imageView"-->
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Tiện Ích"
+                android:id="@+id/buttonTIch"
+                android:layout_below="@+id/buttonTBao"
+                android:layout_alignLeft="@+id/buttonTBao"
+                android:layout_alignStart="@+id/buttonTBao" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Thông Báo"
+                android:id="@+id/buttonTBao"
+                android:layout_below="@+id/buttonTKVL"
+                android:layout_alignLeft="@+id/buttonTKVL"
+                android:layout_alignStart="@+id/buttonTKVL" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Khai báo Nghỉ Việc"
+                android:id="@+id/buttonKBNViec"
+                android:layout_below="@+id/buttonDKPVan"
+                android:layout_alignLeft="@+id/buttonDKPVan"
+                android:layout_alignStart="@+id/buttonDKPVan" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="tìm kiếm việc làm"
+                android:id="@+id/buttonTKVL"
+                android:layout_below="@+id/buttonKBNViec"
+                android:layout_alignLeft="@+id/buttonKBNViec"
+                android:layout_alignStart="@+id/buttonKBNViec" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Thông Tin Tuyển Dụng"
+                android:id="@+id/buttonTTTDung"
+                android:layout_marginTop="73dp"
+                android:layout_below="@+id/txtTimkiemvieclam"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Đăng Ký Phỏng Vấn"
+                android:id="@+id/buttonDKPVan"
+                android:layout_below="@+id/buttonTTTDung"
+                android:layout_alignLeft="@+id/buttonTTTDung"
+                android:layout_alignStart="@+id/buttonTTTDung" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="Thoát"
+                android:id="@+id/buttonThoat"
+                android:layout_below="@+id/buttonTIch"
+                android:layout_alignLeft="@+id/buttonTTTDung"
+                android:layout_alignStart="@+id/buttonTTTDung" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liên hệ"
+                android:id="@+id/textViewLienhe"
+                android:layout_below="@+id/buttonThoat"
+                android:layout_alignLeft="@+id/txtTimkiemvieclam"
+                android:layout_alignStart="@+id/txtTimkiemvieclam"
+                android:layout_marginTop="28dp"
+                android:textSize="20dp"
+                android:textIsSelectable="true"
+                android:textColor="#1e29ff"
+                android:textColorLink="#252850" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin"
+                android:id="@+id/textViewThongtin"
+                android:textSize="20dp"
+                android:textIsSelectable="true"
+                android:textColor="#1e29ff"
+                android:textColorLink="#252850"
+                android:layout_alignTop="@+id/textViewLienhe"
+                android:layout_alignRight="@+id/txtTimkiemvieclam"
+                android:layout_alignEnd="@+id/txtTimkiemvieclam" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

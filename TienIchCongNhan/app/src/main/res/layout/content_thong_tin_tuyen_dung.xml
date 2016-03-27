@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tdmu.deadline.tienichcongnhan.ThongTinTuyenDung">
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageButtonHomepage"
+        android:src="@drawable/homepage"
+        android:layout_alignBottom="@+id/imageButtonUlities"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonUlities"
+        android:src="@drawable/ulities"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonHomepage"
+        android:layout_toEndOf="@+id/imageButtonHomepage" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonSearch"
+        android:src="@drawable/search"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonUlities"
+        android:layout_toEndOf="@+id/imageButtonUlities" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonInbox"
+        android:src="@drawable/inbox"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonSearch"
+        android:layout_toEndOf="@+id/imageButtonSearch" />
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:id="@+id/imageButtonMenu"
+        android:src="@drawable/menu"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageButtonInbox"
+        android:layout_toEndOf="@+id/imageButtonInbox" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonNext"
+        android:src="@drawable/next"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageButtonMenu"
+        android:layout_toStartOf="@+id/imageButtonMenu" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPreview"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageButtonNext"
+        android:layout_toStartOf="@+id/imageButtonNext"
+        android:src="@drawable/preview" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageButtonHomepage"
+        android:layout_above="@+id/imageButtonNext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="______________________"
+                    android:id="@+id/textViewCongty00001"
+                    android:layout_marginTop="37dp"
+                    android:layout_below="@+id/scrollView2"
+                    android:layout_toRightOf="@+id/scrollView2"
+                    android:layout_toEndOf="@+id/scrollView2"
+                    android:textColor="#5555bb"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="______________________"
+                    android:id="@+id/textViewCongty00002"
+                    android:layout_marginTop="38dp"
+                    android:layout_below="@+id/textViewCongty00001"
+                    android:layout_toRightOf="@+id/scrollView2"
+                    android:layout_toEndOf="@+id/scrollView2"
+                    android:textColor="#5555bb"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="______________________"
+                    android:id="@+id/textViewCongty00003"
+                    android:layout_marginTop="46dp"
+                    android:layout_below="@+id/textViewCongty00002"
+                    android:layout_toRightOf="@+id/scrollView2"
+                    android:layout_toEndOf="@+id/scrollView2"
+                    android:textColor="#5555bb"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="______________________"
+                    android:id="@+id/textViewCongty00004"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="20dp"
+                    android:textColor="#5555bb" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="____________________________________"
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/textViewCongty00001"
+                    android:layout_toRightOf="@+id/scrollView2"
+                    android:layout_toEndOf="@+id/scrollView2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="____________________________________"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/textViewCongty00002"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="____________________________________"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/textViewCongty00003"
+                    android:layout_toRightOf="@+id/scrollView2"
+                    android:layout_toEndOf="@+id/scrollView2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="____________________________________"
+                    android:id="@+id/textView4"
+                    android:layout_below="@+id/textViewCongty00004"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
